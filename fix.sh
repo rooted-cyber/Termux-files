@@ -10,6 +10,7 @@ pkg update
 pkg upgrade
 }
 b() {
+ab
 pkg install wget -y
 apt install wget -y
 apt-get install wget -y
@@ -24,4 +25,5 @@ cd $PREFIX/bin
 if [ -e git ];then
 echo "Fixed "
 fi
-
+}
+b
